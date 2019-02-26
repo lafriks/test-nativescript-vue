@@ -1,0 +1,45 @@
+{
+    "nativescript": {
+        "id": "org.nativescript.test",
+        "tns-android": {
+            "version": "5.2.0"
+        },
+        "tns-ios": {
+            "version": "5.2.0"
+        }
+    },
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "repository": "<fill-your-repository-here>",
+    "scripts": {
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "nativescript-theme-core": "~1.0.4",
+        "nativescript-ui-sidedrawer": "^5.1.0",
+        "nativescript-vue": "~2.0.2",
+        "nativescript-vue-devtools": "lafriks/nativescript-vue-devtools.git#7abd7f5ace105ab3ddc999a8cb6c14ada491d0bd",
+        "tns-core-modules": "~5.2.1",
+        "vuex": "^3.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "~7.3.3",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/preset-env": "~7.3.1",
+        "babel-loader": "~8.0.5",
+        "nativescript-dev-webpack": "~0.20.2",
+        "nativescript-vue-template-compiler": "~2.0.2",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.14.1",
+        "eslint-plugin-vue": "^5.2.2",
+        "@vue/cli-plugin-babel": "^3.4.1",
+        "@vue/cli-plugin-eslint": "^3.4.1",
+        "@vue/cli-service": "^3.4.1",
+        "@vue/eslint-config-airbnb": "^4.0.0",
+        "node-sass": "~4.11.0",
+        "vue-loader": "~15.6.4",
+        "vue-template-compiler": "^2.6.7"
+    },
+    "gitHead": "59b6da006346fedb5bb201fcc9cd7d204a69a82f",
+    "readme": "NativeScript Application"
+}
